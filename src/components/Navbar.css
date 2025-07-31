@@ -1,0 +1,163 @@
+/* 
+.navbar-collapse.show {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.navbar-collapse.show .nav-link {
+  color: white !important;
+} */
+/* Background when mobile menu is expanded */
+/* @media (max-width: 991.98px) {
+  .navbar-collapse.show {
+    background-color: rgba(0, 0, 0, 0.85); 
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .navbar-collapse.show .nav-link {
+    color: #ffffff !important;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+
+  .navbar-collapse.show .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+} */
+
+.mobile-menu-overlay {
+  /* cursor:pointer; */
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 250px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.mobile-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mobile-nav li {
+  margin: 1rem 0;
+}
+
+.mobile-nav a {
+  color: white;
+  /* font-size: 1rem; */
+  /* text-decoration: none;
+  transition: color 0.2s; */
+}
+
+/* .mobile-nav a:hover {
+  color: #f39c12;
+} */
+
+/* .close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  animation: fadeIn 0.3s ease-in-out;
+} */
+
+.close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mobile-menu-overlay.open .close-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px){
+  .logosize img{
+    margin-left: -20px;
+    max-height:45px;
+    height:auto;
+    width:auto;
+  }
+}
+
+.nav-link:hover{
+  color: red !important;
+}
+
+/* .close-btn{
+  color:white;
+} */
+
+
+/* 
+.navbar {
+  background-color: #111;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width:350px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links .active {
+  color: #f2b632;
+}
+
+.purchase-btn {
+  color: #f2b632;
+  font-weight: bold;
+}
+
+.rental-btn {
+  background: #f2b632;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+} */

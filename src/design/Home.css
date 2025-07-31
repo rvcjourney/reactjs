@@ -1,0 +1,319 @@
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.home-container {
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Arial',sans-serif;
+}
+
+.hero {
+  background: url('/herobanner.png') center/cover no-repeat;
+  display:block;
+  max-width:100%;
+  height: 630px;
+  /* height:auto; */
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: left;
+  justify-content: left;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 35% 100%, 0 90%);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right,rgba(0,0,0,0.9), transparent);
+}
+
+.hero-content {
+  margin-left: 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.hero-btn {
+  padding: 10px 20px;
+  background-color: #f2b632;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 40px;
+}
+
+.service-card {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 30%;
+}
+
+.service-card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* -----------------------------HomePage.css---------------------------------- */
+
+.features-section {
+  background: linear-gradient(to right, #f39c12, #f39c12);
+  clip-path: polygon(0 10%, 35% 0, 100% 10%, 100% 100%, 0 100%);
+}
+
+.about-section,
+.cta-section {
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.facility-section {
+  background-color: #021514;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+/* ----------------------------- Tv Show Video -----------------------------*/
+.tv-show {
+  border: 8px solid #f39c12;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  margin-right: -15px;
+} 
+
+/* ----------------------------- Circular Crouser -----------------------------*/
+.carousel-wrapper {
+  width: 100%;
+  height: 300px;
+  perspective: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.carousel-track {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin 35s linear infinite;
+}
+
+.carousel-item {
+  /* backface-visibility: visible; */
+  display: block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px;
+  border-radius: 20px;
+  /* background: linear-gradient(rgb(250, 250, 250),transparent); */
+  box-shadow: 0 0 1px #61dafb;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 110px;
+    height: 100px;
+    /* margin: -45px; */
+  }
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  /* background-color: #12f3ce; */
+  border-radius: 1rem;
+  /* box-shadow: 0 4px 12px rgba(236, 252, 255, 0.3); */
+  padding: 20px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Company Logo*/
+
+/* .company-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+}
+
+.company-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.company-logo {
+  max-height: 100px;
+  object-fit: contain;
+  filter: grayscale(30%);
+  transition: filter 0.3s ease;
+}
+
+.company-card:hover .company-logo {
+  filter: grayscale(0%);
+} */
+
+/* ----------------------------Company Logos section------------------------------ */
+
+.service-section {
+  background: url('/banners.png') center center / cover no-repeat;
+  position: relative;
+  color: white;
+  
+}
+
+.service-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* dark transparent overlay */
+  z-index: 1;
+}
+
+.service-section .container {
+  z-index: 2;
+  position: relative;
+}
+
+/* .service-box {
+  height:180px;
+  background-color: white;
+  color: black;
+  transition: transform 0.3s, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+} */
+
+.service-box {
+  /* height: 180px; */
+  height:auto;
+  /* width:500px; */
+  border-radius: 2px;
+  /* padding: 100px; */
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ----------------------------- About Page ----------------------------- */
+
+.achievement-section {
+  background: linear-gradient(to bottom, #111, #444);
+  border-radius: 16px;
+  margin: 40px auto;
+  max-width: 90%;
+}
+
+.achievement-box {
+  height:120px;
+  padding: 10px;
+  background: transparent;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.achievement-box:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1); /* makes white icon if source is black */
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-label {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.about-size{
+  padding:10px;
+}
+
+/* Company Mobile View*/
+.company-logo {
+  width: 200px;
+  max-height: 100px;
+}
+
+@media (max-width: 767.98px) {
+  .company-logo {
+    width: 120px;
+    max-height: 80px;
+    /* margin-bottom: -10px; */
+  }
+}
+
