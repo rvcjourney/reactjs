@@ -2,6 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import mobilelogo from '../assets/mobilelogo.png';
+import { BsEmojiSmileFill } from "react-icons/bs";
 
 const Contact = () => {
     return (
@@ -17,7 +18,7 @@ const Contact = () => {
                         </div>
                         <div className="d-flex align-items-start gap-3">
                             <FaLocationDot size={35} className="text-primary me-2" />
-                            <h5>Maini Tower, Survey No.61, Near Gujarwadi Phata,Pune Satara Road, Katraj Pune 411046</h5> 
+                            <h5>Maini Tower, Survey No.61, Near Gujarwadi Phata,Pune Satara Road, Katraj Pune 411046</h5>
                         </div>
                         <div className="d-flex align-items-start gap-3">
                             <IoCall size={35} className="text-success" />
@@ -27,6 +28,25 @@ const Contact = () => {
                             <MdEmail size={35} className="text-danger" />
                             <h5>mainiautoagency@gmail.com</h5>
                         </div>
+
+                        <div className="mt-3">
+                            <p className="fw-semibold">
+                                We invite you to connect with us, whether for a detailed query or a simple chat about how we can serve your automotive needs. Because at Maini Group, every interaction matters.
+                            </p>
+                            <div className="d-flex text-center text-primary fw-bold gap-2">
+                                <BsEmojiSmileFill size={40} className="text-warning"/>
+                                <span>Feel Free to Ask!!!</span>
+                            </div>
+                        </div>
+
+
+                        {/* <div className="mt-3">
+                            <p className="fw-semibold">We invite you to connect with us, whether for a detailed query or a simple chat about how we can serve your automotive needs. Because at Maini Group, every interaction matters.
+                            </p>
+                            <div className="d-flex align-items-center ">
+                                <span>Feel Free to Ask!!!</span>
+                            </div>
+                        </div> */}
 
                     </div>
                 </div>
