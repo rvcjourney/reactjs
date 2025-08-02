@@ -72,7 +72,7 @@ const BrandSection = ({ title, brands }) => {
           <div className="brand-scroll-track row-two">
             {[...brands, ...brands].map(([name, logo], index) => (
               <div key={index + 100} className="brand-card">
-                <img src={`/public/Brandpage/${logo}`} alt={name} />
+                <img src={`/Brandpage/${logo}`} alt={name} />
                 <p className="brand-name">{name}</p>
               </div>
             ))}
