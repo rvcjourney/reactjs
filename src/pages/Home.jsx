@@ -24,9 +24,9 @@ const Home = () => {
       <div className="hero">
         {/* <Navbar /> */}
         <div className="hero-content">
-          <h4>Welcome to <b><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup Of Automobile Industry </b></h4>
-          <h1>Trusted Wholesaler of <br /> Genuine Vehicle Spare Parts</h1>
-          <button className="hero-btn">Explore Products</button>
+          <h4 className='mb-2'>Welcome to <b><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup Of Automobile Industry </b></h4>
+          <h1 className='mb-4'>Trusted Wholesaler of <br /> Genuine Vehicle Spare Parts</h1>
+          <a href="https://store.mainiauto.com/" target="_blank" rel="noopener norefferrrer" className="p-2 px-3 text-decoration-none text-dark bg-warning rounded fw-semibold">Explore Products</a>
         </div>
       </div>
 
@@ -38,13 +38,13 @@ const Home = () => {
 
               <div className="col-md-6">
                 <h3 className="text-2xl font-bold text-gray-800 flex items-center mt-2">
-                  <FaTools className="text-warning" /> About <span className="text-danger">Maini Group</span>
+                  <FaTools className="text-warning" /> About  <strong><span className="text-danger">M</span>aini <span className='text-danger'>G</span>roup</strong>
                 </h3>
 
                 <p className="text-gray-700 leading-relaxed flex items-start gap-2 mt-3">
                   <MdStarRate size={20} className="text-warning me-2" />
                   <span>
-                    <strong>Maini Group</strong> is a symbol of excellence in the distribution of automobile spares.
+                    <strong><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup</strong> is a symbol of excellence in the distribution of automobile spares.
                     With a commitment to <em>"Better Everyday"</em>, we consistently deliver quality and customer satisfaction.
                   </span>
                 </p>
@@ -63,31 +63,21 @@ const Home = () => {
                   new standards in <strong>Innovation</strong> and <strong>Distribution</strong>.
                 </p>
 
-                <button className="btn btn-warning mt-2 mb-3 hover:shadow-lg transition-all duration-300 mx-auto">
+                <a href='/about' className="btn btn-warning mt-2 mb-3 hover:shadow-lg transition-all duration-300 mx-auto">
                   Learn More
-                </button>
+                </a>
 
               </div>
 
               <div className="col-md-6">
-                {/* <video
-                  // src={mainivideo}
-                  src='https://drive.google.com/file/d/1rwYS10MkTwUERVS9iMEPADEUjKkVTElg/view?usp=sharing'
-                  title="Maini Group Video"
-                  className="img-fluid rounded tv-show"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls
-                /> */}
                 <iframe
-                  src="https://drive.google.com/file/d/1rwYS10MkTwUERVS9iMEPADEUjKkVTElg/preview"
-                  width="95%"
-                  height="330"
-                  allow="autoplay"
-                  className="rounded tv-show"
+                  width="100%"
+                  height="300"
+                  src="https://www.youtube.com/embed/rJhKYhcI3Cg?autoplay=1&mute=1&loop=1&playlist=rJhKYhcI3Cg&rel=0"
+                  title="Maini Group"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
+                  className="rounded tv-show"
                 />
               </div>
             </div>

@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
 
                     {/* Products */}
-                    <div className="col-lg-4 col-md-6 mb-4 me-10">
+                    <div className="col-lg-4 col-md-6 mb-2">
                         <h5 className="text-warning">Contact Us</h5>
                         <ul className="list-unstyled">
                             {/* <p><FaLocationDot size={20} className="me-2"/>Survey No.61, Near Gujarwadi Phata, Pune Satara Road, Katraj Pune 411046</p> */}
@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
 
                     {/* Company */}
-                    <div className="col-lg-2 col-md-6 mb-4">
+                    <div className="col-lg-2 col-md-6 mb-2">
                         <h5 className="text-warning">Company</h5>
                         <ul className="list-unstyled">
                             <li><a href="/about" className="text-light text-decoration-none">About Us</a></li>

@@ -4,11 +4,12 @@ html, body {
   overflow-x: hidden;
 }
 
-
 .home-container {
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-family: 'Arial',sans-serif;
 }
+
+/* Hero Container*/
 
 .hero {
   background: url('/herobanner.png') center/cover no-repeat;
@@ -46,15 +47,24 @@ html, body {
   margin: 10px 0;
 }
 
-.hero-btn {
+/* Only For Mobile View { */
+@media (max-width: 768px){
+  .hero-content h1{
+    font-size: 30px;
+  }
+}
+
+/* .hero-btn {
   padding: 10px 20px;
   background-color: #f2b632;
+  color:black;
   border: none;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 25px;
   border-radius: 10px;
-}
+  text-decoration: none;
+} */
 
 .services {
   display: flex;
@@ -105,9 +115,9 @@ html, body {
 
 /* ----------------------------- Tv Show Video -----------------------------*/
 .tv-show {
-  border: 8px solid #f39c12;
+  border: 2px solid #f39c12;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-  margin-right: -15px;
+  /* margin-right: -15px; */
 } 
 
 /* ----------------------------- Circular Crouser -----------------------------*/
@@ -309,7 +319,8 @@ html, body {
   max-height: 100px;
 }
 
-@media (max-width: 767.98px) {
+
+@media (max-width: 768px) {
   .company-logo {
     width: 120px;
     max-height: 80px;
