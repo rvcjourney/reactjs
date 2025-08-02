@@ -22,10 +22,15 @@ const About = () => {
                         <h3 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 text-center">
                             Helping businesses <span className="bg-green-200 px-1">succeed</span> through the power .
                         </h3>
-                        <p className="text-gray-600 mb-6">
+                        <p className="fw-semibold">
                             Maini Auto Agencies Pvt. Ltd. led by Mr. Virmeet (Bobby) Singh Maini & Jaspreet (Mintu) Singh Maini decided to break-away from the traditional mindset of doing business where companies have engaged in head-to-head competition in search of sustained, profitable growth. We realized that these hallmarks of competitive strategy were not the way to create profitable growth in the future.
                         </p>
-
+                        <p className='fw-semibold'>
+                            Maini Group, a symbol of excellence in the distribution of automobile spares. With an enduring spirit of "Better Everyday," our businesses have transcended traditional market strategies, consistently steering towards quality and customer satisfaction.
+                        </p>
+                        <p className='fw-semibold'>
+                            Founded in 1992, we've grown through market fluctuations with resilience and passion, emerging as a leading force in the automotive after parts market in and around Pune district. Our vision is clear: To be at the forefront of the automotive parts industry's modern evolution, setting benchmarks and redefining distribution standards along the way.
+                        </p>
                     </div>
 
                     <div className="col-md-6 mb-4">
@@ -38,8 +43,18 @@ const About = () => {
                         />
                     </div>
 
+                    <div className='mt-3'>
+                        <p className='fw-semibold'>
+                            Our unique business model emphasizes not just efficient delivery systems but also adds significant value to each product. It's not just about reaching our customers; it's about reaching them with the utmost standards of promptness, reliability, and excellence.
+                        </p>
+                        <p className='fw-semibold'>
+                            With a strong team of over 180 dedicated employees, a fleet of 14 self-owned delivery vehicles, and an impressive annual revenue exceeding 100 crores, we proudly stand as a testament to the remarkable results achievable through meticulous execution of simple ideas.
+                            Join us on this journey, where we continue to make significant strides in providing unparalleled value to our customers through our pursuit of differentiation and being "Better Everyday", all reflected in our robust financial performance.
+                        </p>
+                    </div>
+
                     
-                    <h3 className="text-center fw-bold mt-5">Our Achivement</h3>
+                    <h3 className="text-center fw-bold mt-4">Our Achivement</h3>
                     <div className="achievement-section py-5">
                         {/* <h3 className="text-center text-white mb-4">What We Achieve</h3> */}
                         <div className="container">

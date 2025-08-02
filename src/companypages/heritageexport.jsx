@@ -13,7 +13,7 @@ const HeritageExport = () => {
                     <span className="text-danger">H</span>eritage{" "}
                     <span className="text-danger">E</span>xports
                 </h2>
-                <p className="lead text-secondary">
+                <p className="lead text-dark fw-semibold">
                     Comprehensive Sales, Service, and R.T.O Authorized Solutions
                 </p>
             </div>

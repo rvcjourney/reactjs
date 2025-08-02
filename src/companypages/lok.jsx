@@ -13,7 +13,7 @@ const lok = () => {
                     <span className="text-danger">L</span>OK{" "}
                     <span className="text-danger">E</span>nterprises
                 </h2>
-                <p className="lead text-secondary">
+                <p className="lead text-dark fw-semibold">
                     Authorized Ashok Leyland Service Centre
                 </p>
             </div>

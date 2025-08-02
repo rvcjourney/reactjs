@@ -12,7 +12,7 @@ const MainiAuto = () => {
                     <span className="text-danger">M</span>aini{" "}
                     <span className="text-danger">A</span>uto Agencies Pvt. Ltd.
                 </h2>
-                <p className="lead text-secondary">
+                <p className="lead text-dark fw-semibold">
                     Your Trusted Source for Quality Auto Parts
                 </p>
             </div>

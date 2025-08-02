@@ -12,7 +12,7 @@ const MainiAutoInc = () => {
                     <span className="text-danger">M</span>aini{" "}
                     <span className="text-danger">A</span>uto Incorporation
                 </h2>
-                <p className="lead text-secondary">
+                <p className="lead text-dark fw-semibold">
                     Authorized Distributors of Fleetguard Filters
                 </p>
             </div>

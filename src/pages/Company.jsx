@@ -41,7 +41,7 @@ const Company = () => {
             <hr />
             <div className="row mt-5">
                 {/* Left Logo Panel */}
-                <div className="col-12 col-md-2 mb-4 mb-md-0">
+                <div className="col-md-2 mb-4 mb-md-0">
                     <h5 className="text-center text-primary mb-4 fw-bold">Our Companies</h5>
                     <div className="d-flex d-md-block overflow-auto">
                         {companies.map(({ name, logo, page }, index) => (
