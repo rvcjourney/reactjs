@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
 
                     {/* Support */}
-                    <div className="col-lg-2 col-md-6 mb-4">
+                    <div className="col-lg-2 col-md-6 mb-2">
                         <h5 className="text-warning">Support</h5>
                         <ul className="list-unstyled">
                             <li><a href="/contact" className="text-light text-decoration-none">Contact Us</a></li>

@@ -26,7 +26,7 @@ const Home = () => {
         <div className="hero-content">
           <h4 className='mb-2'>Welcome to <b><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup Of Automobile Industry </b></h4>
           <h1 className='mb-4'>Trusted Wholesaler of <br /> Genuine Vehicle Spare Parts</h1>
-          <a href="https://store.mainiauto.com/" target="_blank" rel="noopener norefferrrer" className="p-2 px-3 text-decoration-none text-dark bg-warning rounded fw-semibold">Explore Products</a>
+          <a href="https://store.mainiauto.com/" target="_blank" rel="noopener norefferrrer" className="p-2 mx-auto text-decoration-none text-dark btn btn-warning rounded fw-semibold">Explore Products</a>
         </div>
       </div>
 
