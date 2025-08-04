@@ -1,8 +1,8 @@
 # React + Vite
 
-🚗 Maini Group Portfolio Website
-The Maini Group Website is a responsive and interactive web platform built for Maini Group of Automobile Industry, a leading wholesaler of all types of vehicle spare parts. This website showcases the brand's products, vision, and industry presence while providing an engaging user experience.
-
+__Maini Group Portfolio Website__
+The __Maini Group Website__ is a responsive and interactive web platform built for Maini Group of Automobile Industry, a leading wholesaler of all types of vehicle spare parts. This website showcases the brand's products, vision, and industry presence while providing an engaging user experience.
+<br>
 🌐 Project Overview
 This project includes:
 
@@ -40,7 +40,7 @@ Hosting: (e.g. Vercel, Netlify – add your deployment platform if applicable)
 📱 Mobile Optimization
 Special attention has been given to:
 
-Replacing <h1> with <h3> in mobile view using media queries
+Replacing with in mobile view using media queries
 
 Mobile-first image grid
 
@@ -77,5 +77,5 @@ https://reactjs-36wr.vercel.app/
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
 
 
-📄 License
+📄 Copyright
 © 2025 Maini Group
