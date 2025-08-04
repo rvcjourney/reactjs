@@ -75,7 +75,7 @@ https://reactjs-36wr.vercel.app/
 ----------------------------------------------------------------------------------------------------------------------------------
 
 <img width="250" height="450" alt="image" src="https://github.com/user-attachments/assets/a277a3ef-439a-4c32-bec8-0cfb1ac0dc0b" /> 
-<img width="250" height="450" (https://github.com/user-attachments/assets/08bd8dbc-062f-44d8-856a-df784f47d925) />
+<img width="250" height="450" alt="image2" src="https://github.com/user-attachments/assets/08bd8dbc-062f-44d8-856a-df784f47d925)"/>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
