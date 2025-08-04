@@ -2,7 +2,7 @@
 
 __Maini Group Portfolio Website__
 The __Maini Group Website__ is a responsive and interactive web platform built for Maini Group of Automobile Industry, a leading wholesaler of all types of vehicle spare parts. This website showcases the brand's products, vision, and industry presence while providing an engaging user experience.
-<br>
+<br><br>
 🌐 Project Overview
 This project includes:
 
@@ -70,7 +70,7 @@ npm run dev<br>
 🌍 Visit Live Website<br>
 https://reactjs-36wr.vercel.app/
 
-📸 Screenshots<br>
+📸 Screenshots<br><br>
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/0143f868-4f0f-4ebf-b465-20698de0d7aa" />
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
