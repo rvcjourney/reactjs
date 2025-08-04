@@ -74,7 +74,9 @@ https://reactjs-36wr.vercel.app/
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/0143f868-4f0f-4ebf-b465-20698de0d7aa" />
 ----------------------------------------------------------------------------------------------------------------------------------
 
-<img width="150" height="250" alt="image" src="https://github.com/user-attachments/assets/a277a3ef-439a-4c32-bec8-0cfb1ac0dc0b" /> ![WhatsApp Image 2025-08-04 at 21 16 59_77e23844](https://github.com/user-attachments/assets/294177e4-9122-48bc-a61a-266c3957b01f) ![WhatsApp Image 2025-08-04 at 21 16 59_8e0a8eda](https://github.com/user-attachments/assets/9ade52b7-95a6-405a-8cfa-0503124f4999) ![WhatsApp Image 2025-08-04 at 21 16 57_f8cee21e](https://github.com/user-attachments/assets/3b57b6c2-f3c2-49d2-bb16-f30cb98948cd) ![WhatsApp Image 2025-08-04 at 21 16 58_c29cb160](https://github.com/user-attachments/assets/6ca0d062-9b90-4924-8a4d-801f00097876)
+<img width="250" height="450" alt="image" src="https://github.com/user-attachments/assets/a277a3ef-439a-4c32-bec8-0cfb1ac0dc0b" /> 
+<img width="250" height="450" (https://github.com/user-attachments/assets/08bd8dbc-062f-44d8-856a-df784f47d925) />
+
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
 
