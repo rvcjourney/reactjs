@@ -59,19 +59,18 @@ SEO-friendly tags and metadata
 
 Secure embedding of media (with rel="noopener noreferrer" for external links)
 
-🛠️ Setup Instructions
-bash
-Copy
-Edit
-git clone https://github.com/rvcjourney/reactjs.git
-cd mainiauto
-npm install
-npm run dev
-🔗 Live Demo
-🌍 Visit Live Website
+🛠️ Setup Instructions<br>
+bash<br>
+Copy<br>
+Edit<br>
+git clone https://github.com/rvcjourney/reactjs.git<br>
+cd mainiauto<br>
+npm install<br>
+npm run dev<br>
+🌍 Visit Live Website<br>
 https://reactjs-36wr.vercel.app/
 
-📸 Screenshots
+📸 Screenshots<br>
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/0143f868-4f0f-4ebf-b465-20698de0d7aa" />
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
