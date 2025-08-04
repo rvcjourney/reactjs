@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-08-04 at 21 16 59_46091fcb](https://github.com/user-attachments/assets/bc1afbbf-da3d-43bb-9b5c-85a39731534d)# React + Vite
+# React + Vite
 
 __Maini Group Portfolio Website__
 The __Maini Group Website__ is a responsive and interactive web platform built for Maini Group of Automobile Industry, a leading wholesaler of all types of vehicle spare parts. This website showcases the brand's products, vision, and industry presence while providing an engaging user experience.
@@ -31,11 +31,11 @@ Contact section with a call-to-action
 📁 Technologies Used
 Frontend: React.js, JSX, CSS3, Bootstrap 5
 
-Media: YouTube embed, Google Drive assets
+Media: YouTube embed
 
 Assets: Responsive images, SVG logos, promotional video
 
-Hosting: (e.g. Vercel, Netlify – add your deployment platform if applicable)
+Hosting: Vercel
 
 📱 Mobile Optimization
 Special attention has been given to:
@@ -73,9 +73,11 @@ https://reactjs-36wr.vercel.app/
 📸 Screenshots<br><br>
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/0143f868-4f0f-4ebf-b465-20698de0d7aa" />
 ----------------------------------------------------------------------------------------------------------------------------------
+<div>
+  <img width="250" height="450" alt="image1" src="https://github.com/user-attachments/assets/a277a3ef-439a-4c32-bec8-0cfb1ac0dc0b" />
+  <img width="250" height="450" alt="image2" src="https://github.com/user-attachments/assets/08bd8dbc-062f-44d8-856a-df784f47d925" />
+</div>
 
-<img width="250" height="450" alt="image" src="https://github.com/user-attachments/assets/a277a3ef-439a-4c32-bec8-0cfb1ac0dc0b" /> 
-<img width="250" height="450" alt="image2" src="https://github.com/user-attachments/assets/08bd8dbc-062f-44d8-856a-df784f47d925)"/>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
