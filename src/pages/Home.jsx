@@ -193,8 +193,9 @@ const Home = () => {
             <h2>Authorized Distributors</h2>
             <h4>Passenger Cars, Jeep, Truck, Tractor, Two Wheeler Spares and Accessories</h4>
             <Circle />
+            
             <div className="text-end mt-2">
-              <Link to="/brands" className="btn btn-primary">View All <b>→</b></Link>
+              <Link to="/brands" className="btn btn-warning">View All <b>→</b></Link>
             </div>
 
           </div>

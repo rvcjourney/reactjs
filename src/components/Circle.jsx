@@ -40,73 +40,73 @@ const Circle = () => {
             <div className='carousel-wrapper d-flex justify-content-center aligns-item-center'>
                 <div className="carousel-track position-relative">
                     <div className="carousel-item">
-                        <img src={compo} className="img-fluid rounded shadow" alt="1" />
+                        <img src={compo} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     <div className="carousel-item">
-                        <img src={exide} className="img-fluid rounded shadow" alt="2" />
+                        <img src={exide} className="img-fluid rounded shadow z-3" alt="2" />
                     </div>
                     <div className="carousel-item">
-                        <img src={ipower} className="img-fluid rounded shadow" alt="3" />
+                        <img src={ipower} className="img-fluid rounded shadow z-3 p-4" alt="3" />
                     </div>
                     <div className="carousel-item">
-                        <img src={lucas} className="img-fluid rounded shadow" alt="1" />
+                        <img src={lucas} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     <div className="carousel-item">
-                        <img src={setcolipe} className="img-fluid rounded shadow" alt="2" />
+                        <img src={setcolipe} className="img-fluid rounded shadow z-3 p-4" alt="2" />
                     </div>
                     <div className="carousel-item">
-                        <img src={skf} className="img-fluid rounded shadow" alt="3" />
+                        <img src={skf} className="img-fluid rounded shadow z-3 p-4" alt="3" />
                     </div>
                     <div className="carousel-item">
-                        <img src={spicer} className="img-fluid rounded shadow" alt="1" />
+                        <img src={spicer} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     <div className="carousel-item">
-                        <img src={texspin} className="img-fluid rounded shadow" alt="2" />
+                        <img src={texspin} className="img-fluid rounded shadow z-3" alt="2" />
                     </div>
                     <div className="carousel-item">
-                        <img src={unominda} className="img-fluid rounded shadow p-4" alt="3" />
+                        <img src={unominda} className="img-fluid rounded shadow z-3 p-4" alt="3" />
                     </div>
                     <div className="carousel-item">
-                        <img src={valeo} className="img-fluid rounded shadow p-4" alt="1" />
+                        <img src={valeo} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     <div className="carousel-item ">
-                        <img src={zbehr} className="img-fluid rounded shadow p-4" alt="2" />
+                        <img src={zbehr} className="img-fluid rounded shadow z-3 p-4" alt="2" />
                     </div>
                     <div className="carousel-item ">
-                        <img src={zendurance} className="img-fluid rounded shadow p-4" alt="3" />
+                        <img src={zendurance} className="img-fluid rounded shadow z-3 py-4" alt="3" />
                     </div>
                     <div className="carousel-item ">
-                        <img src={zfenner} className="img-fluid rounded shadow p-4" alt="1" />
+                        <img src={zfenner} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     <div className="carousel-item">
-                        <img src={zjk} className="img-fluid rounded shadow" alt="2" />
+                        <img src={zjk} className="img-fluid rounded shadow z-3 p-2" alt="2" />
                     </div>
                     <div className="carousel-item">
-                        <img src={zphilips} className="img-fluid rounded shadow" alt="3" />
+                        <img src={zphilips} className="img-fluid rounded shadow z-3" alt="3" />
                     </div>
                     <div className="carousel-item">
-                        <img src={zrico} className="img-fluid rounded shadow" alt="1" />
+                        <img src={zrico} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     <div className="carousel-item">
-                        <img src={zrolon} className="img-fluid rounded shadow" alt="2" />
+                        <img src={zrolon} className="img-fluid rounded shadow z-3" alt="2" />
                     </div>
                     <div className="carousel-item">
-                        <img src={zsparkminda} className="img-fluid rounded shadow" alt="3" />
+                        <img src={zsparkminda} className="img-fluid rounded shadow z-3" alt="3" />
                     </div>
                     <div className="carousel-item">
-                        <img src={ztalbros} className="img-fluid rounded shadow" alt="1" />
+                        <img src={ztalbros} className="img-fluid rounded shadow z-3" alt="1" />
                     </div>
                     <div className="carousel-item">
-                        <img src={cummins} className="img-fluid rounded shadow p-3" alt="2" />
+                        <img src={cummins} className="img-fluid rounded shadow z-3 p-4" alt="2" />
                     </div>
                     <div className="carousel-item">
-                        <img src={wabco} className="img-fluid rounded shadow" alt="3" />
+                        <img src={wabco} className="img-fluid rounded shadow z-3 p-4" alt="3" />
                     </div>
                     <div className="carousel-item">
-                        <img src={holset} className="img-fluid rounded shadow" alt="1" />
+                        <img src={holset} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
                     {/* <div className="carousel-item">
-                        <img src="https://www.w3schools.com/w3images/lights.jpg" className="img-fluid rounded shadow" alt="2" />
+                        <img src="https://www.w3schools.com/w3images/lights.jpg" className="img-fluid rounded shadow z-3" alt="2" />
                     </div> */}
                 </div>
             </div>
