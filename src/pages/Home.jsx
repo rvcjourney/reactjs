@@ -24,7 +24,18 @@ const Home = () => {
       <div className="hero">
         {/* <Navbar /> */}
         <div className="hero-content">
-          <h4 className='mb-2'>Welcome to <b><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup Of Automobile Industry </b></h4>
+          {/* <h4 className='mb-2'>Welcome to <b><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup Of Automobile Industry </b></h4> */}
+          <h4 className='mb-2 welcome-line'>
+            <span className="word animate-delay-1">Welcome</span>
+            <span className="word animate-delay-2">to</span>
+            <span className="word animate-delay-3">
+              <b>
+                <span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup 
+              </b>
+            </span>
+            <span className='word animate-delay-4'>Of Automobile Industry</span>
+          </h4>
+
           <h1 className='mb-4'>Trusted Wholesaler of <br /> Genuine Vehicle Spare Parts</h1>
           <a href="https://store.mainiauto.com/" target="_blank" rel="noopener norefferrrer" className="p-2 mx-auto text-decoration-none text-dark btn btn-warning rounded fw-semibold">Explore Products</a>
         </div>

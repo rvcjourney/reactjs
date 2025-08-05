@@ -22,9 +22,9 @@ const Footer = () => {
                             <img src={portlogo} />
                         </div>
                         {/* <p> */}
-                            <h5>Our Vision <br/><br/>
+                        <h5>Our Vision <br /><br />
                             <span className='text-warning'>To Become Leading Distributor in Automotive Field.</span>
-                            </h5>
+                        </h5>
                         {/* </p> */}
                         <div className="d-flex mt-4 gap-4 fs-4 social-icons justify-content-center">
                             <a href="https://www.facebook.com/Mainiautoagencies/" ><FaFacebookF /></a>
@@ -41,13 +41,23 @@ const Footer = () => {
                             {/* <p><FaLocationDot size={20} className="me-2"/>Survey No.61, Near Gujarwadi Phata, Pune Satara Road, Katraj Pune 411046</p> */}
                             <p>
                                 <FaLocationDot size={23} className="me-2" />
-                                Survey No.61, Near Gujarwadi Phata,<br/>
+                                Survey No.61, Near Gujarwadi Phata,<br />
                                 <span className="ms-3">Pune Satara Road, Katraj Pune 411046</span>
                             </p>
 
                             <p><IoCall size={22} className="me-2" />+91 - 9860878889</p>
 
-                            <p> <MdEmail size={22} className="me-2" />mainiautoagency@gmail.com</p>
+                            <p>
+                                <MdEmail size={22} className="me-2" />
+                                <a
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=mainiautoagency@gmail.com&su=Inquiry%20from%20Website&body=Hello,%20I%20would%20like%20to%20know%20more%20about..."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                    mainiautoagency@gmail.com
+                                </a>
+                            </p>
                         </ul>
                     </div>
 
