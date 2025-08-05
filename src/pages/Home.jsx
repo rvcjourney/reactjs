@@ -135,12 +135,12 @@ const Home = () => {
             <h2 className="text-center mb-2 fw-bold">Our Group Of Companies</h2>
             <p className="text-center mb-5">Building Excellence Together.....</p>
 
-            <div className="row m-1">
+            <div className="row mx-1">
               {[
-                { icon: <img src={mainiauto} alt="Company Logo" style={{ maxHeight: "120px" }} /> },
-                { icon: <img src={HeritageExporstLogo} alt="Company Logo" style={{ maxHeight: "120px", width: "300px" }} /> },
-                { icon: <img src={MainiAutoIncorporationLogo} alt="Company Logo" style={{ maxHeight: "120px" }} /> },
-                { icon: <img src={LokEnterprisesLogo} alt="Company Logo" style={{ maxHeight: "120px" }} /> },
+                { icon: <img src={mainiauto} className="img-fluid" alt="MainiAuto Agencies Logo" style={{ maxHeight: "120px" }} /> },
+                { icon: <img src={HeritageExporstLogo} className="img-fluid" alt="Heritage Export Logo" style={{ maxHeight: "120px"}} /> },
+                { icon: <img src={MainiAutoIncorporationLogo} className="img-fluid" alt="Maini Auto Incorporation Logo" style={{ maxHeight: "120px" }} /> },
+                { icon: <img src={LokEnterprisesLogo} className="img-fluid" alt="LOK Enterprises Logo" style={{ maxHeight: "120px" }} /> },
               ].map((service, idx) => (
                 <div className="col-6 col-md-6 border service-box d-flex justify-content-center align-items-center" key={idx}>
                   {service.icon}
