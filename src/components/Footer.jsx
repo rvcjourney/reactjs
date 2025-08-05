@@ -2,6 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import './Footer.css'
+import { Link } from "react-router-dom";
 
 import {
     FaFacebookF,
@@ -65,11 +66,9 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-6 mb-2">
                         <h5 className="text-warning">Company</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/about" className="text-light text-decoration-none">About Us</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">Our Team</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">News</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">Gallery</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">Careers</a></li>
+                            <li><Link to="/about" className="text-light text-decoration-none">About Us</Link></li>
+                            <li><Link to="/newsgallery" className="text-light text-decoration-none">News & Gallery</Link></li>
+                            <li><Link to="/career" className="text-light text-decoration-none">Careers</Link></li>
                         </ul>
                     </div>
 
@@ -77,10 +76,10 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-6">
                         <h5 className="text-warning">Support</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/contact" className="text-light text-decoration-none">Contact Us</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">FAQs</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">Privacy Policy</a></li>
-                            <li><a href="#" className="text-light text-decoration-none">Terms of Service</a></li>
+                            <li><Link to="/contact" className="text-light text-decoration-none">Contact Us</Link></li>
+                            <li><Link to="#" className="text-light text-decoration-none">FAQs</Link></li>
+                            <li><Link to="#" className="text-light text-decoration-none">Privacy Policy</Link></li>
+                            <li><Link to="#" className="text-light text-decoration-none">Terms of Service</Link></li>
                         </ul>
                     </div>
                 </div>
