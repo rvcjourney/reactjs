@@ -11,6 +11,8 @@ import LokEnterprisesPage from '../companypages/lok.jsx';
 
 import '../design/Home.css';
 
+import { useEffect } from "react";
+
 const companies = [
     {
         name: 'Maini Auto',
@@ -36,6 +38,10 @@ const companies = [
 
 const Company = () => {
     const [selectedCompany, setSelectedCompany] = useState(companies[0]);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [selectedCompany]);
+    
     return (
         <div className="container-fluid my-5 pt-5">
             <hr />

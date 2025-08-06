@@ -21,10 +21,12 @@ import NewsGallery from './pages/NewsGallery.jsx';
 import Contact from './pages/Contact.jsx'; 
 import Career from './components/Career.jsx';
 import Footer from './components/Footer.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
