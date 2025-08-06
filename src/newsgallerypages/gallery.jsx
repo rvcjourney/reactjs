@@ -17,11 +17,15 @@ import galleryfifteen from '../assets/newsgalleryimg/gallery5.3.png';
 import gallerysixteen from '../assets/newsgalleryimg/gallery6.1.png';
 import galleryseventeen from '../assets/newsgalleryimg/gallery6.2.png';
 
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 
 const Gallery = () => {
     const [currentPage, setCurrentPage] = useState(1);
+
+    useEffect(() =>{
+        window.scrollTo(0,0);
+    }, [currentPage]);
 
     const allPages = [
         [galleryone, gallerytwo, gallerythree],   // Page 1

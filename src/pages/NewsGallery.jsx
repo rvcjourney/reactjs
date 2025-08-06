@@ -17,6 +17,7 @@ const ngpages = [
 const NewsGallery = () => {
     const [selectedPage, setSelectedPage] = useState(ngpages[0]);
     const SelectedComponent = selectedPage.page;
+    
 
     return (
         <div className="container my-5 pt-5">
