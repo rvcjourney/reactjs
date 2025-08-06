@@ -119,17 +119,15 @@ const Career = () => {
                 <div className="text-center">
                     <h4 className="fw-bold mb-3">Apply Now</h4>
                     <p className="text-muted mb-4">
-                        Add your resume to email <strong>hr@mainigroup.com</strong> after you click button..
+                        <h5>Please click the 'Send Email' button below to apply for your desired position.</h5>  {/*Hr Email Need to changes...below */}
                     </p>
                     <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=mainiautoagency@gmail.com&su=Inquiry%20from%20Website&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20designation%20and%20this%20is%20my%20resume..." className="btn btn-primary btn-lg px-4 py-2"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=mainiautoagency@gmail.com&su=Job%20Application%20from%20Website&body=Dear%20[Hiring%20Manager/Team],%0A
+I%20am%20writing%20to%20express%20my%20interest%20in%20the%20[Job%20Title/Designation]%20position.%0AI%20would%20appreciate%20the%20opportunity%20to%20learn%20more%20about%20this%20role.%0APlease%20find%20my%20resume%20attached%20for%20your%20review.%0A%0A(%20Note%20:%20%20Please%20add%20your%20Resume%20).." className="btn btn-primary btn-lg px-4 py-2"
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ textDecoration: "none", color: "inherit" }}
-                    >Send Resume</a>
-                    {/* <a href="mailto:hr@mainigroup.com" className="btn btn-danger btn-lg px-4 py-2">
-                        
-                    </a> */}
+                        style={{ textDecoration: "none", color: "white" }}
+                    >Send Email</a>
                 </div>
             </div>
 

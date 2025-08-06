@@ -79,7 +79,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Contact Form */}
+        {/* Contact Form Email Need To Changes*/}
         <div className="col-md-6 col-12 border rounded py-3">
           <iframe name="hidden_iframe" style={{ display: "none" }}></iframe>
           <form
