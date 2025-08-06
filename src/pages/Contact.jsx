@@ -43,7 +43,7 @@ const Contact = () => {
           <span className="text-danger">G</span>roup
         </strong>
       </h3>
-      <div className="row py-5 px-3 rounded border">
+      <div className="row py-3 px-3 rounded border">
         {/* Contact Info */}
         <div className="col-md-6 col-12 mb-4">
           <div className="d-flex flex-column gap-4">
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="d-flex align-items-start gap-3">
               <FaLocationDot size={35} className="text-primary me-2" />
-              <h5>
+              <h5 style={{textAlign: 'justify'}}>
                 Maini Tower, Survey No.61, Near Gujarwadi Phata, Pune Satara
                 Road, Katraj Pune 411046
               </h5>
@@ -66,7 +66,7 @@ const Contact = () => {
               <h5>mainiautoagency@gmail.com</h5>
             </div>
             <div className="mt-3">
-              <p className="fw-semibold">
+              <p className="fw-semibold" style={{textAlign:'justify'}}>
                 We invite you to connect with us, whether for a detailed query
                 or a simple chat about how we can serve your automotive needs.
                 Because at Maini Group, every interaction matters.
@@ -80,7 +80,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Form Email Need To Changes*/}
-        <div className="col-md-6 col-12 border rounded py-3">
+        <div className="col-md-6 col-12 border rounded py-3 my-3">
           <iframe name="hidden_iframe" style={{ display: "none" }}></iframe>
           <form
             className="d-flex flex-column gap-3"

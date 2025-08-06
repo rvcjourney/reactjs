@@ -19,11 +19,11 @@ const MainiAutoInc = () => {
 
             {/* Company Description */}
             <div className="bg-white rounded-4 shadow-sm p-3 mb-4">
-                <h5 className="mb-3 fw-semibold text-primary">Who We Are</h5>
-                <p className="text-muted">
+                <h5 className="mb-3 fw-bold text-primary">Who We Are</h5>
+                <p className="text-muted" style={{textAlign:'justify'}}>
                     At Maini Auto Incorporation, we specialize in keeping your engines clean and protected. As authorized distributors for Fleetguard Filters Pvt. Ltd., we provide top-of-the-line filtration solutions designed to extend the lifespan of your vehicles and machinery.
                 </p>
-                <p className="text-muted">
+                <p className="text-muted" style={{textAlign:'justify'}}>
                     Located in Katraj and Ahmednagar, our branches are strategically positioned to serve a broad spectrum of clients with efficiency and promptness. Whether you're dealing with heavy-duty industrial equipment, commercial vehicles, or everyday passenger cars, our range of Fleetguard filters offers unparalleled protection against contaminants, ensuring your engines deliver optimal performance.
                 </p>
                 <div className="col-md-12 text-center">
@@ -42,13 +42,13 @@ const MainiAutoInc = () => {
                 <div className="row g-4">
                     {/* Pune Branch */}
                     <div className="col-md-6">
-                        <div className="bg-light p-4 rounded-3 shadow-sm h-100">
+                        <div className="bg-light p-2 h-100">
                             <h4 className="text-danger mb-3">Pune</h4>
                             <p className="mb-1 text-muted">
                                 <FaLocationDot size={23} className="me-2" />
                                 Katraj, Jadhavnagar, Pune 411046
                             </p>
-                            <p className="mb-0 text-muted">
+                            <p className="mb-1 text-muted">
                                 <IoCall size={22} className="me-2" /><span className="fw-medium">7620901058, 7709002477</span>
                             </p>
                         </div>
@@ -56,7 +56,7 @@ const MainiAutoInc = () => {
 
                     {/* Ahmednagar Branch */}
                     <div className="col-md-6">
-                        <div className="bg-light p-4 rounded-3 shadow-sm h-100">
+                        <div className="bg-light p-2 h-100">
                             <h4 className="text-danger mb-3">Ahmednagar</h4>
                             <p className="mb-1 text-muted">
                                 <FaLocationDot size={23} className="me-2" />
@@ -64,7 +64,7 @@ const MainiAutoInc = () => {
                                 Shop No. 11, Wadiya Park Stadium,
                                 Tilak Road, Ahmednagar 414001
                             </p>
-                            <p className="mb-0 text-muted">
+                            <p className="mb-1 text-muted">
                                 <IoCall size={22} className="me-2" /><span className="fw-medium">7709002473</span>
                             </p>
                         </div>

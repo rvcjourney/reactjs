@@ -164,13 +164,27 @@ const TotalBrands = () => {
 
         return (
           <div key={category} className="mb-5 mt-5">
+            <div style={{ display: 'inline-block', margin: '20px', textAlign: 'center' }}>
+              <div style={{
+                display: 'inline-block',
+                padding: '10px 40px',
+                backgroundColor: '#00cfee',
+                color: 'white',
+                fontWeight: 'bold',
+                textTransform: 'uppercase',
+                // clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)'
+                clipPath: 'polygon(0% 0%, 85% 0%, 100% 90%, 100% 100%, 0% 100%)'
+              }}>
+                {category}
+              </div>
+                 <div style={{
+                height: '3px',
+                backgroundColor: '#333',
+                width: '100%',
+              }}></div>
+            </div>
+            
 
-            {/* <h4 className="mb-3 fw-semibold">{category}</h4> */}
-
-            <h4 className="mb-3 fw-semibold d-flex align-items-center gap-2">
-              <i className="fas fa-check text-primary fs-5"></i>
-              {category}
-            </h4>
 
             <div className="row g-4">
               {visibleBrands.map(([name, logo], idx) => (
@@ -189,7 +203,7 @@ const TotalBrands = () => {
                 </div>
               ))}
             </div>
-            
+
 
             {brandList.length > 4 && (
               <div className="text-center mt-4">
@@ -197,7 +211,7 @@ const TotalBrands = () => {
                   onClick={() => toggleExpand(category)}
                   className="btn btn-link p-0 text-decoration-none fw-semibold"
                 >
-                  {showAll ? 'View Less Brands' : 'View More Brands'}
+                  {showAll ? 'View Less Brands ⮝' :  'View More Brands  ⮟'}
                 </button>
               </div>
             )}

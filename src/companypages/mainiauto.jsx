@@ -19,14 +19,14 @@ const MainiAuto = () => {
 
             {/* Company Description */}
             <div className="bg-white rounded-4 shadow-sm p-4 mb-4">
-                <h5 className="mb-3 fw-semibold text-primary">Who We Are</h5>
-                <p className="text-muted">
+                <h5 className="mb-3 fw-bold text-primary">Who We Are</h5>
+                <p className="text-muted" style={{textAlign:'justify'}}>
                     Maini Auto Agencies (MAA), an integral part of the Maini Group, is a
                     leading distributor of top-tier auto parts and solutions. We serve a
                     diverse clientele with dedicated divisions for Passenger Vehicles,
                     Heavy Commercial Vehicles, and Two-Wheelers.
                 </p>
-                <p className="text-muted">
+                <p className="text-muted"style={{textAlign:'justify'}} >
                     At MAA, we provide more than just products—we deliver peace of mind.
                     With an extensive product range, authorized brand partnerships, and a
                     commitment to customer satisfaction, we stand out in the automotive
@@ -35,10 +35,10 @@ const MainiAuto = () => {
             </div>
 
             {/* Product Highlight: Battery Division */}
-            <div className="row align-items-center bg-light rounded-4 shadow-sm p-4">
+            <div className="row align-items-center bg-light pt-4">
                 <div className="col-md-6 mb-3 mb-md-0">
-                    <h4 className="fw-semibold text-dark">Battery Division</h4>
-                    <p className="text-muted">
+                    <h5 className="fw-semibold text-primary">Battery Division</h5>
+                    <p className="text-muted" style={{textAlign:'justify'}}>
                         Our Battery Division features industry-leading products from trusted
                         brands. Whether for commercial fleets or personal vehicles, we
                         ensure quality, longevity, and performance with every battery we
@@ -54,10 +54,10 @@ const MainiAuto = () => {
                     />
                 </div>
             </div>
-            <div className="row align-items-center bg-light rounded-4 shadow-sm p-4">
+            <div className="row align-items-center bg-light pt-4">
                 <div className="col-md-6 mb-3 mb-md-0">
-                    <h4 className="fw-semibold text-dark">Passenger & Commercial Vehicle Division</h4>
-                    <p className="text-muted">
+                    <h5 className="fw-semibold text-primary">Passenger & Commercial Vehicle Division</h5>
+                    <p className="text-muted" style={{textAlign:'justify'}}>
                         Our Passenger & Commercial Division features industry-leading products from trusted
                         brands. Whether for commercial fleets or personal vehicles, we
                         ensure quality, longevity, and performance with every battery we
@@ -73,10 +73,10 @@ const MainiAuto = () => {
                     />
                 </div>
             </div>
-            <div className="row align-items-center bg-light rounded-4 shadow-sm p-4">
+            <div className="row align-items-center bg-light pt-4">
                 <div className="col-md-6 mb-3 mb-md-0">
-                    <h4 className="fw-semibold text-dark">Two Wheeler Division</h4>
-                    <p className="text-muted">
+                    <h5 className="fw-semibold text-primary">Two Wheeler Division</h5>
+                    <p className="text-muted" style={{textAlign:'justify'}}>
                         Our Battery Division features industry-leading products from trusted
                         brands. Whether for commercial fleets or personal vehicles, we
                         ensure quality, longevity, and performance with every battery we

@@ -52,7 +52,7 @@ const Home = () => {
                   <FaTools className="text-warning" /> About  <strong><span className="text-danger">M</span>aini <span className='text-danger'>G</span>roup</strong>
                 </h3>
 
-                <p className="text-gray-700 leading-relaxed flex items-start gap-2 mt-3">
+                <p className="text-gray-700 gap-2 mt-3" style={{textAlign:'justify'}}>
                   <MdStarRate size={20} className="text-warning me-2" />
                   <span>
                     <strong><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup</strong> is a symbol of excellence in the distribution of automobile spares.
@@ -60,7 +60,7 @@ const Home = () => {
                   </span>
                 </p>
 
-                <p className="text-gray-700 leading-relaxed flex items-start gap-2">
+                <p className="text-gray-700 gap-2" style={{textAlign:'justify'}}>
                   <MdHistory size={20} className="text-warning me-2" />
                   <span>
                     <strong>Founded in 1992</strong>, we have grown through market changes with resilience and passion,
@@ -68,7 +68,7 @@ const Home = () => {
                   </span>
                 </p>
 
-                <p className="text-gray-700 leading-relaxed flex items-start gap-2">
+                <p className="text-gray-700 gap-2" style={{textAlign: 'justify'}}>
                   <MdTrendingUp size={20} className="text-warning me-2" />
                   <strong>Our Vision</strong> is to lead the modern evolution of the automotive parts industry by setting
                   new standards in <strong>Innovation</strong> and <strong>Distribution</strong>.
@@ -103,7 +103,7 @@ const Home = () => {
                   <div className="card-body">
                     <MdGroups size={40} className="mb-2" />
                     <h5 className="card-title">Quality Service</h5>
-                    <p className="card-text">Our comprehensive service extends beyond sales to include good availability of spares & fixed day fixed route, free of cost deliveries.</p>
+                    <p className="card-text" style={{textAlign:'justify'}}>Our comprehensive service extends beyond sales to include good availability of spares & fixed day fixed route, free of cost deliveries.</p>
                   </div>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const Home = () => {
                   <div className="card-body">
                     <FaBoxOpen size={35} className="mb-3" />
                     <h5 className="card-title">Genuine Spares Parts</h5>
-                    <p className="card-text">We proudly distribute a vast array of genuine spares for over 25+ brands across various vehicle categories.</p>
+                    <p className="card-text" style={{textAlign:'justify'}}>We proudly distribute a vast array of genuine spares for over 25+ brands across various vehicle categories.</p>
                   </div>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Home = () => {
                   <div className="card-body">
                     <IoPricetags size={30} className="mb-3" />
                     <h5 className="card-title">Reasonable Pricing</h5>
-                    <p className="card-text">We guarantee competitive pricing on a wide range of products and services without compromising quality.</p>
+                    <p className="card-text" style={{textAlign:'justify'}}>We guarantee competitive pricing on a wide range of products and services without compromising quality.</p>
                   </div>
                 </div>
               </div>
@@ -191,7 +191,7 @@ const Home = () => {
         <section className="facility-section py-5 text-white text-center">
           <div className="container">
             <h2>Authorized Distributors</h2>
-            <h4>Passenger Cars, Jeep, Truck, Tractor, Two Wheeler Spares and Accessories</h4>
+            <h4 >Passenger Cars, Jeep, Truck, Tractor, Two Wheeler Spares and Accessories</h4>
             <Circle />
             
             <div className="text-end mt-2">
