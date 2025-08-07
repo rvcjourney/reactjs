@@ -7,6 +7,7 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 import logoblack from '../assets/Maini_Logo_Black.png';
 // import contactimg from '../assets/contact_image.png';
 import headcontact from '../assets/headcontact.png';
+import '../design/Home.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -56,19 +57,19 @@ const Contact = () => {
               <img src={logoblack} className="rounded img-fluid bg-white mt-3" style={{height: '50px'}} alt="logo" />
             </div>
             <div className="d-flex align-items-start gap-3">
-              <FaLocationDot size={40} className="text-primary me-2" />
-              <h5 style={{textAlign: 'justify'}}>
+              <FaLocationDot size={40} className="text-primary" />
+              <p className="custom-size mb-0">
                 Maini Tower, Survey No.61, Near Gujarwadi Phata, Pune Satara
                 Road, Katraj Pune 411046
-              </h5>
+              </p>
             </div>
             <div className="d-flex align-items-start gap-3">
-              <IoCall size={35} className="text-success" />
-              <h5>020 - 26959027 / 28, 7709002474 / 75</h5>
+              <IoCall size={30} className="text-success" />
+              <p className="custom-size takeleft mb-0">020 - 26959027 / 28 , 7709002474 / 75</p>
             </div>
             <div className="d-flex align-items-start gap-3">
-              <MdEmail size={35} className="text-danger" />
-              <h5>mainiautoagency@gmail.com</h5>
+              <MdEmail size={30} className="text-danger" />
+              <p className="custom-size mb-0">mainiautoagency@gmail.com</p>
             </div>
             <div className="mt-3">
               <p className="fw-semibold" style={{textAlign:'justify'}}>
@@ -76,8 +77,8 @@ const Contact = () => {
                 or a simple chat about how we can serve your automotive needs.
                 Because at Maini Group, every interaction matters.
               </p>
-              <div className="d-flex text-center text-primary fw-bold gap-3 py-4">
-                <BsEmojiSmileFill size={40} className="text-warning" />
+              <div className="d-flex align-items-center justify-content-center text-primary fw-bold gap-3 py-4">
+                <BsEmojiSmileFill size={36} className="text-warning h-2" />
                 <span>Feel Free to Ask!!!</span>
               </div>
             </div>

@@ -111,8 +111,9 @@ const Navbar = () => {
             {/* Mobile menu overlay */}
             {menuOpen && (
                 <div className={`mobile-menu-overlay ${menuOpen ? "open" : "closed"}`}>
-                    <div ref={menuRef} className="mobile-menu-content">
-                        <button className="close-btn" onClick={() => setMenuOpen(false)}>
+                    {/* <div ref={menuRef} className="mobile-menu-content"> */}
+                        {/* <button className="close-btn" onClick={() => setMenuOpen(false)}> */}
+                        <button className='close-btn' onClick={toggleMenu}>
                             <RxCross1 size={32} color="white" />
                         </button>
                         <ul className="mobile-nav fw-bold">
@@ -121,7 +122,9 @@ const Navbar = () => {
                                     "nav-link " + (isActive ? "text-danger fw-bold" : "text-white")
                                 }
                                     to="/"
-                                    onClick={() => setMenuOpen(false)}>
+                                    // onClick={() => setMenuOpen(false)}>
+                                    onClick={toggleMenu}
+                                >
                                     Home</NavLink></li>
                             <li>
                                 <NavLink
@@ -129,7 +132,8 @@ const Navbar = () => {
                                         "nav-link " + (isActive ? "text-danger fw-bold" : "text-white")
                                     }
                                     to="/about"
-                                    onClick={() => setMenuOpen(false)}
+                                    // onClick={() => setMenuOpen(false)}
+                                    onClick={toggleMenu}
                                 >
                                     About Us
                                 </NavLink>
@@ -140,7 +144,8 @@ const Navbar = () => {
                                         "nav-link " + (isActive ? "text-danger fw-bold" : "text-white")
                                     }
                                     to="/brands"
-                                    onClick={() => setMenuOpen(false)}
+                                    // onClick={() => setMenuOpen(false)}
+                                    onClick={toggleMenu}
                                 >
                                     Brands
                                 </NavLink>
@@ -151,7 +156,8 @@ const Navbar = () => {
                                         "nav-link " + (isActive ? "text-danger fw-bold" : "text-white")
                                     }
                                     to="/company"
-                                    onClick={() => setMenuOpen(false)}
+                                    // onClick={() => setMenuOpen(false)}
+                                    onClick={toggleMenu}
                                 >
                                     Group of Companies
                                 </NavLink>
@@ -162,7 +168,8 @@ const Navbar = () => {
                                         "nav-link " + (isActive ? "text-danger fw-bold" : "text-white")
                                     }
                                     to="/newsgallery"
-                                    onClick={() => setMenuOpen(false)}
+                                    // onClick={() => setMenuOpen(false)}
+                                    onClick={toggleMenu}
                                 >
                                     News & Gallery
                                 </NavLink>
@@ -173,14 +180,15 @@ const Navbar = () => {
                                         "nav-link " + (isActive ? "text-danger fw-bold" : "text-white")
                                     }
                                     to="/contact"
-                                    onClick={() => setMenuOpen(false)}
+                                    // onClick={() => setMenuOpen(false)}
+                                    onClick={toggleMenu}
                                 >
                                     Contact Us
                                 </NavLink>
                             </li>
                         </ul>
                     </div>
-                </div>
+                // </div>
             )}
         </>
     );
