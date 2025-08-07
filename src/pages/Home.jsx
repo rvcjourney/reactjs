@@ -74,9 +74,9 @@ const Home = () => {
                   new standards in <strong>Innovation</strong> and <strong>Distribution</strong>.
                 </p>
 
-                <a href='/about' className="btn btn-warning mt-2 mb-3 hover:shadow-lg transition-all duration-300 mx-auto">
+                <Link to='/about' className="btn btn-warning mt-2 mb-3 hover:shadow-lg transition-all duration-300 mx-auto">
                   Learn More
-                </a>
+                </Link>
 
               </div>
 
