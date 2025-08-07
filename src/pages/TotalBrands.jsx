@@ -164,16 +164,17 @@ const TotalBrands = () => {
 
         return (
           <div key={category} className="mb-5 mt-5">
-            <div style={{ display: 'inline-block', margin: '20px', textAlign: 'center' }}>
+            <div className='mb-4' style={{ display: 'inline-block', textAlign: 'left', width: '100%' }}>
               <div style={{
                 display: 'inline-block',
-                padding: '10px 40px',
-                backgroundColor: '#00cfee',
+                padding: '10px 50px 10px 10px',
+                backgroundColor: '#e20102',
                 color: 'white',
                 fontWeight: 'bold',
                 textTransform: 'uppercase',
+                textAlign: 'left',
                 // clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)'
-                clipPath: 'polygon(0% 0%, 85% 0%, 100% 90%, 100% 100%, 0% 100%)'
+                clipPath: 'polygon(2% 0%, 80% 0%, 100% 98%, 100% 100%, 0% 100%)'
               }}>
                 {category}
               </div>
@@ -211,12 +212,12 @@ const TotalBrands = () => {
                   onClick={() => toggleExpand(category)}
                   className="btn btn-link p-0 text-decoration-none fw-semibold"
                 >
-                  {showAll ? 'View Less Brands ⮝' :  'View More Brands  ⮟'}
+                  {showAll ? 'View Less Brands 🔼' :  'View More Brands  🔽'}
                 </button>
               </div>
             )}
 
-            <hr className="mt-4" />
+            {/* <hr className="mt-4" /> */}
           </div>
         );
       })}

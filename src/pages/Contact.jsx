@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { BsEmojiSmileFill } from "react-icons/bs";
-import mobilelogo from "../assets/mobilelogo.png"; // adjust path as needed
+// import mobilelogo from "../assets/mobilelogo.png"; 
+import logoblack from '../assets/Maini_Logo_Black.png';
+// import contactimg from '../assets/contact_image.png';
+import headcontact from '../assets/headcontact.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -36,22 +39,24 @@ const Contact = () => {
   return (
     <div className="container py-5 mt-5">
       <hr />
-      <h3 className="my-5 text-center">
-        Get in Touch With{" "}
+      <h3 className="mt-5 text-center">
+        <img src={headcontact} className="img-fluid" style={{height:'120px',width:'800px'}}/>
+        {/* Get in Touch With{" "}
         <strong>
           <span className="text-danger">M</span>aini{" "}
           <span className="text-danger">G</span>roup
-        </strong>
+        </strong>  */}
+        
       </h3>
-      <div className="row py-3 px-3 rounded border">
+      <div className="row p-3">
         {/* Contact Info */}
-        <div className="col-md-6 col-12 mb-4">
+        <div className="col-md-6 col-12 border rounded">
           <div className="d-flex flex-column gap-4">
             <div>
-              <img src={mobilelogo} className="bg-secondary rounded" alt="logo" />
+              <img src={logoblack} className="rounded img-fluid bg-white mt-3" style={{height: '50px'}} alt="logo" />
             </div>
             <div className="d-flex align-items-start gap-3">
-              <FaLocationDot size={35} className="text-primary me-2" />
+              <FaLocationDot size={40} className="text-primary me-2" />
               <h5 style={{textAlign: 'justify'}}>
                 Maini Tower, Survey No.61, Near Gujarwadi Phata, Pune Satara
                 Road, Katraj Pune 411046
@@ -71,7 +76,7 @@ const Contact = () => {
                 or a simple chat about how we can serve your automotive needs.
                 Because at Maini Group, every interaction matters.
               </p>
-              <div className="d-flex text-center text-primary fw-bold gap-2">
+              <div className="d-flex text-center text-primary fw-bold gap-3 py-4">
                 <BsEmojiSmileFill size={40} className="text-warning" />
                 <span>Feel Free to Ask!!!</span>
               </div>
@@ -80,7 +85,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Form Email Need To Changes*/}
-        <div className="col-md-6 col-12 border rounded py-3 my-3">
+        <div className="col-md-6 col-12 border rounded py-3">
           <iframe name="hidden_iframe" style={{ display: "none" }}></iframe>
           <form
             className="d-flex flex-column gap-3"
@@ -93,7 +98,7 @@ const Contact = () => {
             <input type="hidden" name="_template" value="table" />
 
             <div>
-              <label className="form-label">Name</label>
+              <label className="form-label mt-3">Name</label>
               <input
                 name="name"
                 type="text"
