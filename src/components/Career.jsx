@@ -3,7 +3,7 @@ import job from '../assets/job.png';
 const Career = () => {
     return (
         <div className="container mt-5 py-5">
-            <hr />
+            {/* <hr /> */}
             <div className="container py-2">
                 <h2 className="text-center fw-bold mb-4 gap-3 align-items-center justify-content-center">
                     Join the <span className="text-danger">M</span>aini <span className="text-danger">G</span>roup Team

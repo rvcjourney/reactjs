@@ -39,7 +39,7 @@ const Contact = () => {
   };
   return (
     <div className="container py-5 mt-5">
-      <hr />
+      {/* <hr /> */}
       <h3 className="mt-5 text-center">
         <img src={headcontact} className="img-fluid" style={{height:'120px',width:'800px'}}/>
         {/* Get in Touch With{" "}

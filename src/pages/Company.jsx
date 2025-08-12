@@ -44,7 +44,7 @@ const Company = () => {
     
     return (
         <div className="container-fluid my-5 pt-5">
-            <hr />
+            {/* <hr /> */}
             <div className="row mt-5">
                 {/* Left Logo Panel */}
                 <div className="col-md-2 mb-4 mb-md-0">

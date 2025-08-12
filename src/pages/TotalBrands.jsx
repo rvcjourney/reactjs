@@ -88,6 +88,7 @@
 
 // export default TotalBrands;
 
+import '../design/Brandpage.css';
 import { useState } from 'react';
 
 const Brands = {
@@ -156,72 +157,88 @@ const TotalBrands = () => {
 
 
   return (
-    <div className="container my-5 pt-5">
-      <hr />
-      {Object.entries(Brands).map(([category, brandList]) => {
-        const showAll = expanded[category];
-        const visibleBrands = showAll ? brandList : brandList.slice(0, 4); // Show 4 by default
+      <div className="container my-5 pt-5">
+        {/* <hr /> */}
+        {Object.entries(Brands).map(([category, brandList]) => {
+          const showAll = expanded[category];
+          const visibleBrands = showAll ? brandList : brandList.slice(0, 4); // Show 4 by default
 
-        return (
-          <div key={category} className="mb-5 mt-5">
-            <div className='mb-4' style={{ display: 'inline-block', textAlign: 'left', width: '100%' }}>
-              <div style={{
-                display: 'inline-block',
-                padding: '10px 50px 10px 10px',
-                backgroundColor: '#e20102',
-                color: 'white',
-                fontWeight: 'bold',
-                textTransform: 'uppercase',
-                textAlign: 'left',
-                // clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)'
-                clipPath: 'polygon(2% 0%, 80% 0%, 100% 98%, 100% 100%, 0% 100%)'
-              }}>
-                {category}
+          return (
+            <div key={category} className="mb-5 mt-5">
+              <div className='mb-4' style={{ display: 'inline-block', textAlign: 'left', width: '100%' }}>
+                <div style={{
+                  display: 'inline-block',
+                  padding: '10px 50px 10px 10px',
+                  backgroundColor: '#e20102',
+                  color: 'white',
+                  fontWeight: 'bold',
+                  textTransform: 'uppercase',
+                  textAlign: 'left',
+                  // clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)'
+                  clipPath: 'polygon(2% 0%, 80% 0%, 100% 98%, 100% 100%, 0% 100%)'
+                  
+                }}>
+                  {category}
+                </div>
+                <div style={{
+                  height: '3px',
+                  backgroundColor: '#333',
+                  width: '100%',
+                }}></div>
               </div>
-                 <div style={{
-                height: '3px',
-                backgroundColor: '#333',
-                width: '100%',
-              }}></div>
-            </div>
-            
 
 
-            <div className="row g-4">
-              {visibleBrands.map(([name, logo], idx) => (
-                <div key={idx} className="col-6 col-sm-4 col-md-3">
-                  <div className="card h-100 border-1 shadow-sm text-center py-4 px-1 rounded-4">
-                    <img
-                      src={`/Brandpage/${logo}`}
-                      alt={name}
-                      className="img-fluid mx-auto"
-                      style={{ maxHeight: '60px', objectFit: 'contain' }}
-                    />
-                    <div className="card-body p-2">
-                      <h6 className="card-title text-dark small fw-semibold mb-0">{name}</h6>
+
+              <div className="row g-4">
+                {visibleBrands.map(([name, logo], idx) => (
+                  <div key={idx} className="col-6 col-sm-4 col-md-3">
+                    <div className="card h-100 border-1 shadow-sm text-center py-4 px-1 rounded-4">
+                      <img
+                        src={`/Brandpage/${logo}`}
+                        alt={name}
+                        className="img-fluid mx-auto"
+                        style={{ maxHeight: '60px', objectFit: 'contain' }}
+                      />
+                      <div className="card-body p-2">
+                        <h6 className="card-title text-dark small fw-semibold mb-0">{name}</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
 
 
-            {brandList.length > 4 && (
+              {/* {brandList.length > 4 && (
               <div className="text-center mt-4">
                 <button
                   onClick={() => toggleExpand(category)}
-                  className="btn btn-link p-0 text-decoration-none fw-semibold"
+                  className="btn btn-link p-0 text-decoration-none fw-semibold view-brands-btn"
                 >
                   {showAll ? 'View Less Brands 🔼' :  'View More Brands  🔽'}
                 </button>
               </div>
-            )}
+            )} */}
 
-            {/* <hr className="mt-4" /> */}
-          </div>
-        );
-      })}
-    </div>
+              {brandList.length > 4 && (
+                <div className="text-center mt-4">
+                  <button
+                    onClick={() => toggleExpand(category)}
+                    className="view-brands-btn"
+                  >
+                    {showAll ? (
+                      <>View Less Brands <span className="arrow">▲</span></>
+                    ) : (
+                      <>View More Brands <span className="arrow">▼</span></>
+                    )}
+                  </button>
+                </div>
+              )}
+
+
+            </div>
+          );
+        })}
+      </div>
   );
 };
 

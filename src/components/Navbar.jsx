@@ -57,7 +57,7 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className="navbar navbar-expand-lg px-4 py-4 position-absolute top-0 start-0 w-100 z-3"
+                className="navbar navbar-expand-lg px-4 py-3 position-absolute top-0 start-0 w-100 z-3"
             // style={{
             //     background: isHome ? "" : 'linear-gradient(to right,rgba(0,0,0,0.3), transparent),linear-gradient(to bottom,transparent,rgba(255, 255, 255))'
             // }}
@@ -82,7 +82,7 @@ const Navbar = () => {
                     </button>
 
                     <div className="collapse navbar-collapse d-none d-lg-block" id="mainiNavbar">
-                        <ul className="navbar-nav ms-auto mb-lg-0 gap-4 fw-bold">
+                        <ul className="navbar-nav ms-auto mb-lg-0 gap-3 fw-bold">
             
                             <li className="nav-item">
                                 <NavLink className={({ isActive }) => "nav-link " + (isActive ? "text-danger fw-bold border-bottom border-danger" : "text-dark")} to="/">Home</NavLink>

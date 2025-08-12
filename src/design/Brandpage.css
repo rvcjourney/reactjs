@@ -1,11 +1,9 @@
-
+/* 
 .brand-title {
   font-size: 24px;
   font-weight: 600;
   margin-top: 30px;
   margin-bottom: 15px;
-  /* color: #e9091e; */
-  /* text-decoration: underline; */
   z-index: 2;
 }
 
@@ -13,7 +11,6 @@
   overflow: hidden;
   position: relative;
   padding: 10px 0;
-  /* background-color: #f0f0f0; */
 }
 
 .brand-scroll-track {
@@ -82,8 +79,6 @@
   }
 }
 
-/*  */
-
 .brand-scroll-wrapper {
   position: relative;
   overflow: hidden;
@@ -123,4 +118,75 @@
   flex: 0 0 auto;
   margin: 0 20px;
   text-align: center;
+} */
+
+.view-brands-btn {
+  background: linear-gradient(90deg, #2b8cf3, #94b7dd);
+  color: white !important;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
+
+.view-brands-btn:hover {
+  background: linear-gradient(90deg, #3b82ce, #b776f3);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.view-brands-btn .arrow {
+  transition: transform 0.3s ease;
+}
+
+.view-brands-btn:hover .arrow {
+  color:red;
+}
+
+/* background image */
+/* .back {
+  position: relative;
+  max-width: 60%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: left;
+  justify-content: left;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+
+/* .back::before {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background: url('/brandbackground.png') center/cover no-repeat;
+  opacity: 0.2; 
+  z-index: 0;
+  height: 1000px;
+  margin-top:180px;
+  background-size: contain;
+}
+
+.back::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+@media (max-width: 768px) {
+  .back::before {
+    background: url('/brandbackground.png') !important;
+  }
+}
+
+.back > * {
+  position: relative;
+  z-index: 1;
+} */

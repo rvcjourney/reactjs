@@ -33,7 +33,7 @@ const Home = () => {
                 <span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup 
               </b>
             </span>
-            <span className='word animate-delay-4'>Of Automobile Industry</span>
+            {/* <span className='word animate-delay-4'>Of Automobile Industry</span> */}
           </h4>
 
           <h1 className='mb-4'>Trusted Wholesaler of <br /> Genuine Vehicle Spare Parts</h1>
@@ -101,7 +101,7 @@ const Home = () => {
               <div className="col-md-4 mb-4">
                 <div className="card h-100 shadow">
                   <div className="card-body">
-                    <MdGroups size={40} className="mb-2" />
+                    <MdGroups size={40} className="text-danger mb-2" />
                     <h5 className="card-title">Quality Service</h5>
                     <p className="card-text" style={{textAlign:'justify'}}>Our comprehensive service extends beyond sales to include good availability of spares & fixed day fixed route, free of cost deliveries.</p>
                   </div>
@@ -110,7 +110,7 @@ const Home = () => {
               <div className="col-md-4 mb-4">
                 <div className="card h-100 shadow">
                   <div className="card-body">
-                    <FaBoxOpen size={35} className="mb-3" />
+                    <FaBoxOpen size={35} className="text-danger mb-3" />
                     <h5 className="card-title">Genuine Spares Parts</h5>
                     <p className="card-text" style={{textAlign:'justify'}}>We proudly distribute a vast array of genuine spares for over 25+ brands across various vehicle categories.</p>
                   </div>
@@ -119,7 +119,7 @@ const Home = () => {
               <div className="col-md-4 mb-4">
                 <div className="card h-100 shadow">
                   <div className="card-body">
-                    <IoPricetags size={30} className="mb-3" />
+                    <IoPricetags size={30} className="text-danger mb-3" />
                     <h5 className="card-title">Reasonable Pricing</h5>
                     <p className="card-text" style={{textAlign:'justify'}}>We guarantee competitive pricing on a wide range of products and services without compromising quality.</p>
                   </div>

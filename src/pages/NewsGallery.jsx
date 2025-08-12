@@ -21,10 +21,10 @@ const NewsGallery = () => {
 
     return (
         <div className="container my-5 pt-5">
-            <hr />
+            {/* <hr /> */}
 
             {/* Buttons for Page Selection */}
-            <div className="d-flex justify-content-center mb-4 gap-3 flex-wrap">
+            <div className="d-flex justify-content-center mb-4 gap-3 flex-wrap mt-5">
                 {ngpages.map(({ name }, index) => (
                     <button
                         key={index}

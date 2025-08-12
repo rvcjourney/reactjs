@@ -14,7 +14,7 @@ const About = () => {
     return (
         <div>
             <div className="container my-5 pt-5">
-                <hr />
+                {/* <hr /> */}
                 <div className="row align-items-center justify-content-center mt-5 pt-3">
                     {/* <hr className='m-3 mt-5' /> */}
                     <div className=' col-md-6 mb-4'>
@@ -105,7 +105,7 @@ const About = () => {
                             <div className="col-6 col-md-3">
                                 <div className="card shadow-sm h-150 border-1 text-center p-3 rounded-4 hover-shadow">
                                     <img src={mainiauto} className="img-fluid rounded" alt="Maini Auto" />
-                                    <h6 className="mt-3 fw-semibold">Maini Auto</h6>
+                                    <h6 className="mt-3 fw-semibold"> Maini Auto Agencies Pvt. Ltd.</h6>
                                 </div>
                             </div>
 
@@ -119,14 +119,14 @@ const About = () => {
                             <div className="col-6 col-md-3">
                                 <div className="card shadow-sm h-150 border-1 text-center p-3 rounded-4 hover-shadow">
                                     <img src={MainiAutoIncorporationLogo} className="img-fluid rounded" alt="Maini Auto Inc." />
-                                    <h6 className="mt-3 fw-semibold">Maini Auto Inc.</h6>
+                                    <h6 className="mt-3 fw-semibold">Maini Auto Incorporation</h6>
                                 </div>
                             </div>
 
                             <div className="col-6 col-md-3">
                                 <div className="card shadow-sm h-150 border-1 text-center p-3 rounded-4 hover-shadow">
                                     <img src={LokEnterprisesLogo} className="img-fluid rounded" alt="Lok Enterprises" />
-                                    <h6 className="mt-3 fw-semibold">Lok Enterprises</h6>
+                                    <h6 className="mt-3 fw-semibold">LOK Enterprises</h6>
                                 </div>
                             </div>
                         </div>
