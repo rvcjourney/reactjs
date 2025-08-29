@@ -65,12 +65,18 @@ https://reactjs-36wr.vercel.app/
 📸 Screenshots<br><br>
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/0143f868-4f0f-4ebf-b465-20698de0d7aa" />
 ----------------------------------------------------------------------------------------------------------------------------------
+
+<br/>
+
 <div>
   <img width="240" height="400" alt="image1" src="https://github.com/user-attachments/assets/a277a3ef-439a-4c32-bec8-0cfb1ac0dc0b" />
-  <img width="230" height="400" alt="image2" src="https://github.com/user-attachments/assets/08bd8dbc-062f-44d8-856a-df784f47d925" />
+  <img width="230" height="400" alt="image" src="https://github.com/user-attachments/assets/c53bfdb1-345c-49dd-bb42-34db75e4c7dc" />
   <img width="230" height="400" alt="image3" src="https://github.com/user-attachments/assets/76bada03-ac54-4f3a-841b-d52b0d240934" />
   <img width="230" height="400" alt="image4" src="https://github.com/user-attachments/assets/13dcb702-39d7-4d59-b548-eff33ff94070" />
 </div>
+
+<br>
+
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
 
