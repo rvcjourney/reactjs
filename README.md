@@ -1,4 +1,4 @@
-# Maini Group Portfolio Website
+# <span style="color:red;">M</span>aini <span style="color:red;">G</span>roup Portfolio Website
 The Maini Group Website is a responsive and interactive web platform built for Maini Group, a leading wholesaler in the automobile industry specializing in all types of vehicle spare parts. This website highlights the brand’s product range, vision, and industry presence while delivering an engaging user experience.
 
 🌐 Project Overview
@@ -46,7 +46,7 @@ https://reactjs-36wr.vercel.app/
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
-
+<br>
 📁 Technologies Used
 Frontend: React.js, JSX, CSS3, Bootstrap 5
 
