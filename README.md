@@ -1,22 +1,20 @@
-# React + Vite
+# Maini Group Portfolio Website
+The Maini Group Website is a responsive and interactive web platform built for Maini Group, a leading wholesaler in the automobile industry specializing in all types of vehicle spare parts. This website highlights the brand’s product range, vision, and industry presence while delivering an engaging user experience.
 
-__Maini Group Portfolio Website__
-The __Maini Group Website__ is a responsive and interactive web platform built for Maini Group of Automobile Industry, a leading wholesaler of all types of vehicle spare parts. This website showcases the brand's products, vision, and industry presence while providing an engaging user experience.
-<br><br>
 🌐 Project Overview
-This project includes:
+This project features:
 
-Modern React Frontend: Built using React.js with clean component-based architecture.
+Modern React Frontend: Built with React.js using clean, component-based architecture.
 
-Responsive Design: Optimized for both desktop and mobile views using Bootstrap 5 and custom CSS.
+Responsive Design: Optimized for both desktop and mobile with Bootstrap 5 and custom CSS.
 
-Dynamic Image Gallery: Organized layout for showcasing brand and event images.
+Dynamic Image Gallery: Organized layout to showcase brand and event images beautifully.
 
-Embedded Video: Seamless YouTube video integration with autoplay and mute settings.
+Embedded Video: Seamless YouTube integration with autoplay and muted playback.
 
-Section Navigation: Intuitive navigation including sections like:
+Intuitive Section Navigation: Including:
 
-Hero Section with brand slogan
+Hero section with brand slogan
 
 Product highlights
 
@@ -26,38 +24,7 @@ Brand logos and partnerships
 
 News & Events
 
-Contact section with a call-to-action
-
-📁 Technologies Used
-Frontend: React.js, JSX, CSS3, Bootstrap 5
-
-Media: YouTube embed
-
-Assets: Responsive images, SVG logos, promotional video
-
-Hosting: Vercel
-
-📱 Mobile Optimization
-Special attention has been given to:
-
-Replacing with in mobile view using media queries
-
-Mobile-first image grid
-
-Clickable hero buttons with hover/transition effects
-
-Proper use of img-fluid and Bootstrap columns
-
-🧩 Features
-Clean and minimalist UI
-
-Fully responsive layout
-
-Gallery pagination and section navigation
-
-SEO-friendly tags and metadata
-
-Secure embedding of media (with rel="noopener noreferrer" for external links)
+Contact section with clear call-to-action
 
 🌍 Visit Live Website<br>
 https://reactjs-36wr.vercel.app/
@@ -80,6 +47,34 @@ https://reactjs-36wr.vercel.app/
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
 
+📁 Technologies Used
+Frontend: React.js, JSX, CSS3, Bootstrap 5
+
+Media: YouTube embed
+
+Assets: Responsive images, SVG logos, promotional video
+
+Hosting: Vercel
+
+📱 Mobile Optimization Highlights
+Mobile-first image grid using media queries
+
+Replacement of large images with optimized versions for smaller screens
+
+Clickable hero buttons with smooth hover and transition effects
+
+Use of img-fluid and Bootstrap grid columns for perfect mobile scaling
+
+🧩 Key Features
+Clean, minimalist UI for easy navigation and clarity
+
+Fully responsive layout adapting flawlessly to all screen sizes
+
+Gallery with pagination and smooth section navigation
+
+SEO-friendly tags and metadata for better search rankings
+
+Secure media embedding with rel="noopener noreferrer" on external links
 
 📄 Copyright
 © 2025 Maini Group
