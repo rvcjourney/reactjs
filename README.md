@@ -46,7 +46,8 @@ https://reactjs-36wr.vercel.app/
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/04d9cfa6-8719-42a1-a4dd-0041b91cb466" />
-<br>
+<br/>
+<br/>
 📁 Technologies Used
 Frontend: React.js, JSX, CSS3, Bootstrap 5
 
