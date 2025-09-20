@@ -76,8 +76,5 @@ SEO-friendly tags and metadata for better search rankings
 
 Secure media embedding with rel="noopener noreferrer" on external links
 
-<img width="100" height="4000" alt="reactjs-36wr vercel app_" src="https://github.com/user-attachments/assets/efb519ec-ba86-4c6c-828b-58cc2a1183df" />
-
-
 📄 Copyright
 © 2025 Maini Group
