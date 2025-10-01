@@ -1,244 +1,97 @@
-// import '../design/Brandpage.css';
-// const Brands = {
-//   'Two Wheeler Brands': [
-//     ['Zodix', 'Zodix.png'],
-//     ['Ucal', 'Ucal.png'],
-//     ['LIS', 'Lis.png'],
-//     ['Endurance', 'endurance.png'],
-//     ['Indian Nippon', 'Indian_Nippon.png'],
-//     ['Lucus TVS', 'Lucus_TVS.png'],
-//     ['Pricol', 'Pricol_logo.png'],
-//     ['Uno Minda', 'uno_minda_logo.png'],
-//     ['Spark Minda', 'sparkmindaaCC.png'],
-//     ['SKF', 'SKF.png'],
-//     ['Rico', 'Rico_logo.png']
-//   ],
-//   'Passenger Vehicle Brands': [
-//     ['Anand I Power', 'anad_1.png'],
-//     ['Delphi TVS', 'DelphiTVS_logo.png'],
-//     ['JK F&P', 'JK_Fenner___JK_Pioneer_logo_1.png'],
-//     ['SKF', 'SKF.png'],
-//     ['Philips', 'Philips_logo.png'],
-//     ['Mahle Behr', 'Ucal.png'],
-//     ['Uno Minda', 'uno_minda_logo.png'],
-//     ['Sagar Gold', 'Sagar_Gold.png'],
-//     ['Valeo', 'Valeo_logo.png'],
-//     ['Meko', 'Meko.png'],
-//     ['Fitwell', 'FitWell_logo.png'],
-//     ['Spark Minda', 'sparkmindaaCC.png'],
-//     ['Talbros', 'Talbros_logo.png'],
-//     ['Gates', 'Gates_1.png'],
-//     ['Wheels India', 'Wheels-India-Limited.png']
-//   ],
-//   'Commercial Vehicle Brands': [
-//     ['Knorr-Bremse', 'Knorr_Bremse_logo.png'],
-//     ['Setco Lipe', 'Setco_logo.png'],
-//     ['Spicer SVL Dana', 'SpicerSVL_Dana_logo.png'],
-//     ['Texspin', 'texspin.png'],
-//     ['Gates', 'Gates_1.png'],
-//     ['Meko', 'Meko.png'],
-//     ['SKF', 'SKF.png'],
-//     ['Philips', 'Philips_logo.png'],
-//     ['Uno Minda', 'uno_minda_logo.png'],
-//     ['Valeo', 'Valeo_logo.png'],
-//     ['Fitwell', 'FitWell_logo.png'],
-//     ['Spark Minda', 'sparkmindaaCC.png'],
-//     ['Talbros', 'Talbros_logo.png'],
-//     ['Wheels India', 'Wheels-India-Limited.png'],
-//     ['Holset', 'Holset.png'],
-//     ['Cummins', 'Cummins_logo_CC.png'],
-//     ['Sagar Gold', 'Sagar_Gold.png']
-//   ],
-//   'Other Brands': [
-//     ['Exide Battery', 'Exide.png'],
-//     ['Pidilite', 'pidilites.png']
-//   ]
-// };
-
-// const BrandSection = ({ title, brands }) => {
-//   return (
-//     <div className="brand-section">
-//       <h2 className="brand-title text-center mt-5">{title}</h2>
-//       <div className="brand-scroll-wrapper">
-//         <div className="brand-scroll-track row-one">
-//           {[...brands, ...brands].map(([name, logo], index) => (
-//             <div key={index} className="brand-card">
-//               <img src={`/Brandpage/${logo}`} alt={name} />
-//               <p className="brand-name">{name}</p>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const TotalBrands = () => {
-//   return (
-//     <div className="brands-page my-5 pt-5">
-//       <hr />
-//       <div className="container border-x">
-//         {Object.entries(Brands).map(([title, brands]) => (
-//           <BrandSection key={title} title={title} brands={brands} />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default TotalBrands;
-
 import '../design/Brandpage.css';
-import { useState } from 'react';
 
 const Brands = {
-  'Two Wheeler Brands': [
-    ['Zodix', 'Zodix.png'],
-    ['Ucal', 'Ucal.png'],
-    ['LIS', 'Lis.png'],
-    ['Endurance', 'endurance.png'],
-    ['Indian Nippon', 'Indian_Nippon.png'],
-    ['Lucus TVS', 'Lucus_TVS.png'],
-    ['Pricol', 'Pricol_logo.png'],
-    ['Uno Minda', 'uno_minda_logo.png'],
-    ['Spark Minda', 'sparkmindaaCC.png'],
-    ['SKF', 'SKF.png'],
-    ['Rico', 'Rico_logo.png']
-  ],
-  'Passenger Vehicle Brands': [
-    ['Anand I Power', 'anad_1.png'],
-    ['Delphi TVS', 'DelphiTVS_logo.png'],
-    ['JK F&P', 'JK_Fenner___JK_Pioneer_logo_1.png'],
-    ['SKF', 'SKF.png'],
-    ['Philips', 'Philips_logo.png'],
-    ['Mahle Behr', 'Ucal.png'],
-    ['Uno Minda', 'uno_minda_logo.png'],
-    ['Sagar Gold', 'Sagar_Gold.png'],
-    ['Valeo', 'Valeo_logo.png'],
-    ['Meko', 'Meko.png'],
-    ['Fitwell', 'FitWell_logo.png'],
-    ['Spark Minda', 'sparkmindaaCC.png'],
-    ['Talbros', 'Talbros_logo.png'],
-    ['Gates', 'Gates_1.png'],
-    ['Wheels India', 'Wheels-India-Limited.png']
-  ],
-  'Commercial Vehicle Brands': [
-    ['Knorr-Bremse', 'Knorr_Bremse_logo.png'],
-    ['Setco Lipe', 'Setco_logo.png'],
-    ['Spicer SVL Dana', 'SpicerSVL_Dana_logo.png'],
-    ['Texspin', 'texspin.png'],
-    ['Gates', 'Gates_1.png'],
-    ['Meko', 'Meko.png'],
-    ['SKF', 'SKF.png'],
-    ['Philips', 'Philips_logo.png'],
-    ['Uno Minda', 'uno_minda_logo.png'],
-    ['Valeo', 'Valeo_logo.png'],
-    ['Fitwell', 'FitWell_logo.png'],
-    ['Spark Minda', 'sparkmindaaCC.png'],
-    ['Talbros', 'Talbros_logo.png'],
-    ['Wheels India', 'Wheels-India-Limited.png'],
-    ['Holset', 'Holset.png'],
-    ['Cummins', 'Cummins_logo_CC.png'],
-    ['Sagar Gold', 'Sagar_Gold.png']
-  ],
-  'Other Brands': [
-    ['Exide Battery', 'Exide.png'],
-    ['Pidilite', 'pidilites.png']
+  'All Brands': [
+    ['Cummins', 'Cummins_logo_CC.png', <i className="fa-solid fa-truck"></i>],
+    ['Wheels India', 'Wheels-India-Limited.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Holset', 'Holset.png', <i className="fa-solid fa-truck"></i>],
+    ['Setco Lipe', 'Setco_logo.png', <i className="fa-solid fa-truck"></i>],
+    ['Bosch', 'bosch.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Exide Battery', 'Exide.png', null],
+    ['Wabco', 'wabco.png', <i className="fa-solid fa-truck"></i>],
+    ['Gates', 'gates.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Fenner', 'fenner.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Spicer SVL Dana', 'SpicerSVL_Dana_logo.png', <i className="fa-solid fa-truck"></i>],
+    ['SKF', 'SKF.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Texspin', 'texspin.png', <i className="fa-solid fa-truck"></i>],
+    ['Compo Advics', 'compoadvics.png',[ <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Mahle Behr', 'Ucal.png', <i className="fa-solid fa-car"></i>],
+    ['Knorr-Bremse', 'Knorr_Bremse_logo.png', <i className="fa-solid fa-truck"></i>],
+    ['Harita', 'harita.png', <i className="fa-solid fa-truck"></i>],
+    ['Pidilite', 'pidilites.png', null],
+    ['Ashok Leyland', 'ashok.png', <i className="fa-solid fa-truck"></i>],
+    ['LIS', 'Lis.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Rane', 'rane.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Talbros', 'Talbros_logo.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],  
+    ['Dyna Seal', 'dyna.png', <i className="fa-solid fa-truck"></i>],
+    ['Anand I Power', 'anad_1.png', <i className="fa-solid fa-car"></i>],
+    ['Truck Cam ', 'truckcam.png', <i className="fa-solid fa-truck"></i>],
+    ['Lucus TVS', 'Lucus_TVS.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Philips', 'Philips_logo.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Delphi TVS', 'DelphiTVS_logo.png', <i className="fa-solid fa-car"></i>],
+    ['Uno Minda', 'uno_minda_logo.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Valeo', 'Valeo_logo.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Spark Minda', 'sparkmindaaCC.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['JK Pioneer', 'jkpioneer.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Sagar Gold', 'Sagar_Gold.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Fitwell', 'FitWell_logo.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Mk Gold', 'mkgold.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Meko', 'Meko.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Calex ', 'calex.png', <i className="fa-solid fa-truck"></i>],
+    ['Rico', 'Rico_logo.png', <i className="fa-solid fa-motorcycle"></i>], 
+    ['Indian Nippon', 'Indian_Nippon.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Pricol Speed Governer ', 'pri.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
+    ['Pricol', 'Pricol_logo.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Endurance', 'endurance.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Rolon', 'rolon.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Ucal', 'Ucal.png', <i className="fa-solid fa-motorcycle"></i>],
+    ['Zodix', 'Zodix.png', <i className="fa-solid fa-motorcycle"></i>],   
   ]
 };
 
-
 const TotalBrands = () => {
-  const [expanded, setExpanded] = useState({});
-
-  const toggleExpand = (category) => {
-    setExpanded((prev) => ({ ...prev, [category]: !prev[category] }));
-  };
-
-
+  const visibleBrands = Brands['All Brands'];
   return (
-      <div className="container my-5 pt-5">
-        {/* <hr /> */}
-        {Object.entries(Brands).map(([category, brandList]) => {
-          const showAll = expanded[category];
-          const visibleBrands = showAll ? brandList : brandList.slice(0, 4); // Show 4 by default
+    <div className="container my-5 pt-5">
+      <div className='mt-4' style={{
+        display: 'inline-block',
+        padding: '10px 50px 10px 10px',
+        backgroundColor: '#e20102',
+        color: 'white',
+        fontWeight: 'bold',
+        textTransform: 'uppercase',
+        textAlign: 'left',
+        clipPath: 'polygon(2% 0%, 80% 0%, 100% 98%, 100% 100%, 0% 100%)'
+      }}>
+        All brands..
+      </div>
+      <hr className="my-3" style={{ borderWidth: '2px' }} />
 
-          return (
-            <div key={category} className="mb-5 mt-5">
-              <div className='mb-4' style={{ display: 'inline-block', textAlign: 'left', width: '100%' }}>
-                <div style={{
-                  display: 'inline-block',
-                  padding: '10px 50px 10px 10px',
-                  backgroundColor: '#e20102',
-                  color: 'white',
-                  fontWeight: 'bold',
-                  textTransform: 'uppercase',
-                  textAlign: 'left',
-                  // clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)'
-                  clipPath: 'polygon(2% 0%, 80% 0%, 100% 98%, 100% 100%, 0% 100%)'
-                  
-                }}>
-                  {category}
-                </div>
-                <div style={{
-                  height: '3px',
-                  backgroundColor: '#333',
-                  width: '100%',
-                }}></div>
+
+      {/* <h2 className='fw-bold my-4 pt-4 text-danger'>All Brands.</h2> */}
+      <div className="row">
+        {visibleBrands.map(([name, logo, icons], idx) => (
+          <div key={idx} className="col-6 col-sm-4 col-md-3 mb-4">
+            <div className="card h-100 border-1 shadow-sm text-center py-4 px-1 rounded-4">
+              <img
+                src={`/Brandpage/${logo}`}
+                alt={name}
+                className="img-fluid mx-auto"
+                style={{ maxHeight: '60px', objectFit: 'contain' }}
+              />
+              <div className="card-body p-2 d-flex justify-content-center align-items-center">
+                <h6 className="card-title text-dark small fw-semibold mb-0 justify-content-center">{name}</h6>
               </div>
-
-
-
-              <div className="row g-4">
-                {visibleBrands.map(([name, logo], idx) => (
-                  <div key={idx} className="col-6 col-sm-4 col-md-3">
-                    <div className="card h-100 border-1 shadow-sm text-center py-4 px-1 rounded-4">
-                      <img
-                        src={`/Brandpage/${logo}`}
-                        alt={name}
-                        className="img-fluid mx-auto"
-                        style={{ maxHeight: '60px', objectFit: 'contain' }}
-                      />
-                      <div className="card-body p-2">
-                        <h6 className="card-title text-dark small fw-semibold mb-0">{name}</h6>
-                      </div>
-                    </div>
-                  </div>
-                ))}
+              <div className="d-flex justify-content-end fs-5 gap-2" style={{ marginRight: '5px'}}>
+                {icons}
               </div>
-
-
-              {/* {brandList.length > 4 && (
-              <div className="text-center mt-4">
-                <button
-                  onClick={() => toggleExpand(category)}
-                  className="btn btn-link p-0 text-decoration-none fw-semibold view-brands-btn"
-                >
-                  {showAll ? 'View Less Brands 🔼' :  'View More Brands  🔽'}
-                </button>
-              </div>
-            )} */}
-
-              {brandList.length > 4 && (
-                <div className="text-center mt-4">
-                  <button
-                    onClick={() => toggleExpand(category)}
-                    className="view-brands-btn"
-                  >
-                    {showAll ? (
-                      <>View Less Brands <span className="arrow">▲</span></>
-                    ) : (
-                      <>View More Brands <span className="arrow">▼</span></>
-                    )}
-                  </button>
-                </div>
-              )}
 
 
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
+    </div>
   );
 };
 
